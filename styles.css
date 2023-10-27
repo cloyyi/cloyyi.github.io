@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.d34082e4eac110d803ebfbd47741573c?rik=CmYnejQn56fRvQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fRTG%2f6Br%2fRTG6Brxnc.jpeg&ehk=s2tYDVfDS5%2fg1DqmA%2bOgCvriB5CPD5n2ppo178pw23c%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px; /* Add rounded corners to the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a slight shadow to the content area */
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+ul {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+li {
+    list-style: inside;
+}
