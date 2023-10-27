@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <p>Enter the temperature value to be converted and select the input unit:</p>
+        <select id="unit" onchange="convertTemperature()">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+        <br>
+        <input type="number" id="temperature" placeholder="Temperature Value" oninput="convertTemperature()">
+        <br>
+        <div id="result">Fahrenheit: 32°F | Kelvin: 273.15K</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
